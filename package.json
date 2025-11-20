@@ -1,0 +1,22 @@
+{
+  "name": "waychat-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WayChat frontend (React + Vite) - Supabase Auth + client-side E2EE",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.25.0",
+    "localforage": "^1.10.0",
+    "libsodium-wrappers": "^0.7.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^5.0.0"
+  }
+}
